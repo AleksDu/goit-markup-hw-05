@@ -931,7 +931,6 @@ width: 30px;
 height: 30px;
 background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
-box-sizing: border-box;
 border-radius: 50%;
 cursor: pointer;
 }
