@@ -126,9 +126,8 @@ color: #2196f3;
 
 
 
-.site-nav-studio:active{
+.site-nav-studio,.site-nav-portfolio.active{
 color: #2196f3;
-opacity: 1;
 }
 
 .site-nav-portfolio, .site-nav-contacts{
