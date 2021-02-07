@@ -123,10 +123,13 @@ opacity: 1;
 .site-nav-studio:hover,.site-nav-studio:focus{
 color: #2196f3;
 }
+.active
+opacity: 1;
+}
 
 }
 .site-nav-studio:active{
-    color: teal;
+opacity: 1;
 }
 .site-nav-portfolio, .site-nav-contacts{
 font-weight: 500;
@@ -150,7 +153,7 @@ border-radius: 2px;
 opacity: 0
 }
 
-.site-nav-portfolio:hover::after, .site-nav-contacts:hover::after{
+.site-nav-portfolio:active::after,.site-nav-portfolio:hover::after, .site-nav-contacts:hover::after{
 opacity: 1;
 
 }
@@ -937,7 +940,7 @@ border-radius: 50%;
 cursor: pointer;
 }
 
-.is-hiden{
+.is-hidden{
 opacity: 0;
 visibility: hidden;
 pointer-events: none;
