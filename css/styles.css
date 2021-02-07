@@ -126,7 +126,10 @@ color: #2196f3;
 
 
 
-.site-nav-studio,.site-nav-portfolio.active{
+.site-nav-studio.active{
+color: #2196f3;
+}
+.site-nav-portfolio.active{
 color: #2196f3;
 }
 
